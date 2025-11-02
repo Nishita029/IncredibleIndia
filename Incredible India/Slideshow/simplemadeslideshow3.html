@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<title>Slideshow</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+
+<div class="w3-content" style="max-width:1100px; margin:auto;">
+  <img class="mySlides" src="Images/tajmahal4.jpg" style="width:1100px; height:450px;">
+  <img class="mySlides" src="Images/agrafort.jpg" style="width:1100px; height:450px; display:none">
+  <img class="mySlides" src="Images/agra.jpg" style="width:1100px; height:450px; display:none">
+  <img class="mySlides" src="Images/charminar.jpg" style="width:1100px; height:450px; display:none">
+
+  <div class="w3-row-padding w3-section" style=" height:100px; background-color:; margin:auto;">
+    <div class="w3-col s4" style="width:273px; height:100px; float:left; border:1px solid lightgrey;">
+      <span class="demo w3-opacity w3-hover-opacity-off" style="width:100%; cursor:pointer; color:#43474c; position:relative; top:30px; left:20px;" onclick="currentDiv(1)">Kumbh</span>
+      <br>
+      <span style="width:100%; cursor:pointer; color:#7c838c; position:relative; top:30px; left:20px;" onclick="currentDiv(1)">15 JANUARY, 2019</span>
+    </div>
+
+    <div class="w3-col s4" style="width:273px; height:100px; float:left; border:1px solid lightgrey;">
+      <span class="demo w3-opacity w3-hover-opacity-off" style="width:100%; cursor:pointer; color:#43474c; position:relative; top:30px; left:20px;" onclick="currentDiv(2)">Bharat Parv</span>
+      <br>
+      <span style="width:100%; cursor:pointer; color:#7c838c; position:relative; top:30px; left:20px;" onclick="currentDiv(2)">26 JANUARY, 2019</span>
+    </div>
+
+    <div class="w3-col s4" style="width:273px; height:100px; float:left; border:1px solid lightgrey;">
+      <span class="demo w3-opacity w3-hover-opacity-off" style="width:100%; cursor:pointer; color:#43474c; position:relative; top:30px; left:20px;" onclick="currentDiv(3)">Holi</span>
+      <br>
+      <span style="width:100%; cursor:pointer; color:#7c838c; position:relative; top:30px; left:20px;" onclick="currentDiv(3)">20 MARCH, 2019</span>
+    </div>
+
+    <div class="w3-col s4" style="width:273px; height:100px; float:left; border:1px solid lightgrey;">
+      <span class="demo w3-opacity w3-hover-opacity-off" style="width:100%; cursor:pointer; color:#43474c; position:relative; top:30px; left:20px;" onclick="currentDiv(4)">Ram Navami</span>
+      <br>
+      <span style="width:100%; cursor:pointer; color:#7c838c; position:relative; top:30px; left:20px;" onclick="currentDiv(4)">14 APRIL, 2019</span>
+    </div>
+
+  </div>
+</div>
+
+<script>
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,104 @@
+#space8{
+	margin:auto;
+	height:300px;
+	width:1200px;
+	/*background-color:grey;*/
+}
+
+/* Slideshow container */
+.testimonials-slideshow-container {
+	width:1200px;
+	height:300px;
+	margin: auto;
+}
+
+.testimonials_box{
+	margin:auto;
+	/*background-color:lightgrey;*/
+	height:130px;
+	width:400px;
+}
+
+.testimonials_name{
+	padding: 8px 12px;
+	/*background-color:red;*/
+	width:340px;
+	height:30px;
+	position:relative;
+	top:10px;
+	text-align:center;
+	font-family:calibri;
+	font-size:20px;
+	text-transform:uppercase;
+	opacity:.7;
+	margin:auto;
+}
+
+.testimonials-text{
+	/*background-color:rgba(0,0,0,0.30);*/
+	/*background-color:orange;*/
+	font-size: 17px;
+	padding: 8px 12px;
+	left:px;
+	width:1000px;
+	height:px;
+	text-align: justify;
+	font-family: calibri;
+	margin:auto;
+}
+
+.testimonials-text p{
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 20px;
+	letter-spacing: normal;
+	text-align: center;
+	color: #7c838c;
+	font-family:calibri;
+}
+
+/* Next & previous buttons */
+.prev-button, .next-button {
+	/*background-color:black;*/
+	cursor: pointer;
+	padding: 16px;
+	margin-top: -22px;
+	color: lightgrey;
+	font-weight: bold;
+	font-size: 25px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}*/
+
+/* On hover, add a black background color with a little bit see-through
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}*/
+
+
+/* Fading animation */
+.fadeSlide {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}

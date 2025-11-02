@@ -1,0 +1,2222 @@
+#header{
+	height:400px;
+	/*background-color:lightblue;*/
+	/*background-image:url('Images/tajmahal4.jpg');*/
+	border-bottom:1px solid #fff;
+}
+
+#header > div{
+	height:390px;
+	width:900px;
+}
+
+#logo{
+	height:40px;
+	width:320px;
+	font-size:30px;
+	font-family:oswald;
+	color:white;
+	position:relative;
+	left:80px;
+	line-height:100px;
+}
+
+.anchor{
+	text-decoration:none;
+	color:white;
+}
+
+/*
+li{
+	display:inline-block;
+	list-style:none;
+	float:right;
+	margin:0;
+	padding:0;
+	width:345px;
+	height:40px;
+	//border:1px solid grey;
+	//background:orange;
+}
+
+#navigation li{
+	float: left;
+	margin: 0 15px;
+}
+
+#navigation li:first-child{
+	margin-left: 0;
+}
+
+#navigation li a{
+	color: orange;
+	font-family: "Oswald";
+	font-size: 14px;
+	padding: 15px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	background:;
+}
+
+#navigation li .nav{
+	background:black;
+}
+
+li{
+	height:30px;
+	width:80px;
+	list-style:none;
+	display:inline-block;
+}
+
+#navigation{
+	background-color:red;
+	height:40px;
+	width:300px;
+}
+*/
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{	
+	height:20px;
+	width:160px;
+	background:;
+	float:right;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	font-size:17px;
+	font-family:calibri;
+}
+
+ul li a{
+	color:white;
+	text-decoration:none;
+	display:block;
+}
+
+ul .sublist1 a:hover{
+	background-color:black;
+	
+}
+
+ul .sublist1:hover{
+	background-color:black;
+}
+
+ul li ul{
+	background-color:black;
+	display:none;
+}
+
+ul li:hover ul{
+	display:block;
+}
+
+/*
+#span1{
+	height:50px;
+	width:150px;
+	font-size:20px;
+	color:white;
+	font-family:calibri;
+	position:relative;
+	left:80px;
+	top:100px;
+	z-index: -1;
+}
+
+#span2{
+	height:50px;
+	width:150px;
+	font-size:20px;
+	color:white;
+	font-family:calibri;
+	position:relative;
+	left:80px;
+	z-index: -1;
+}
+*/
+
+#logo2{
+	height:150px;
+	width:400px;
+	/*background-color:orange;*/
+	font-size:30px;
+	text-transform:uppercase;
+	color:white;
+	font-family:calibri;
+	position:relative;
+	left:80px;
+	top:170px;
+}
+
+.incredible{
+	height:50px;
+	width:380px;
+	/*background-color:lightblue;*/
+	position:relative;
+	top:20px;
+	font-size:45px;
+}
+
+#container1{
+	height:450px;
+	/*background-color:lightgreen;*/
+	border-bottom:10px solid #fff;
+	position:relative;
+	top:100px;
+}
+
+#container2{
+	/*margin-left:180px;*/
+	position:relative;
+	left:120px;
+	height:440px;
+	width:1200px;
+	/*background-color:aqua;*/
+}
+
+#piece1{
+	width:250px;
+	height:400px;
+	/*background-color:black;*/
+	float:left;
+	/*position:relative;
+	top:60px;*/
+
+}
+
+#popular{
+	height:30px;
+	width:250px;
+	/*background-color:blue;*/
+	color:#43474c;
+	font-weight: bold;
+	font-size:30px;
+	font-family:oswald ;
+	text-align:left;
+	margin-top:;
+	text-transform:uppercase;
+	margin-bottom:0;
+	position:relative;
+	top:130px;
+}
+
+#destinations{
+	height:30px;
+	width:250px;
+	/*background-color:brown;*/
+	color:#43474c;
+	font-weight: bold;
+	font-size:30px;
+	font-family:oswald;
+	text-align:left;
+	margin-top:;
+	text-transform:uppercase;
+	margin-bottom:0;
+	position:relative;
+	top:100px;
+}
+
+#paragraph1{
+	font-family:roboto;
+	font-size:14px;
+	text-align:left;
+	color:#7c838c;
+	position:relative;
+	top:100px;
+}
+
+#piece2{
+	height:400px;
+	width:520px;
+	/*background-color:black;*/
+	float:left;
+	/*position:relative;
+	bottom:340px;
+	right:420px;*/
+	position:relative;
+	left:10px;
+}
+
+#figcaption1{
+	font-size:20px;
+	width:520px;
+	height:40px;
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+	font-family:calibri;
+	margin-top:360px;
+	background-color:rgba(0,0,0,0.64);
+}
+
+#piece3{
+	height:400px;
+	width:410px;
+	/*background-color:black;*/
+	float:right;
+	/*position:relative;
+	bottom:340px;
+	left:520px;*/
+}
+
+#inside1{
+	height:195px;
+	width:200px;
+	/*background-color:black;*/
+	float:left;
+}
+
+#figcaption2{
+	height:40px;
+	font-size:20px;
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+	font-family:calibri;
+	margin-top:155px;
+	background-color:rgba(0,0,0,0.64);
+}
+
+#inside2{
+	height:195px;
+	width:200px;
+	/*background-color:black;*/
+	float:right;
+}
+
+#figcaption3{
+	height:40px;
+	font-size:20px;
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+	font-family:calibri;
+	margin-top:155px;
+	background-color:rgba(0,0,0,0.64);
+}
+
+#inside3{
+	height:195px;
+	width:200px;
+	/*background-color:black;*/
+	float:left;
+	position:relative;
+	top:10px;
+}
+
+#figcaption4{
+	height:40px;
+	font-size:20px;
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+	font-family:calibri;
+	margin-top:155px;
+	background-color:rgba(0,0,0,0.64);
+}
+
+#inside4{
+	height:195px;
+	width:200px;
+	/*background-color:black;*/
+	float:right;
+	position:relative;
+	top:10px;
+}
+
+#figcaption5{
+	height:40px;
+	font-size:20px;
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+	font-family:calibri;
+	margin-top:155px;
+	background-color:rgba(0,0,0,0.64);
+}
+
+#space1{
+	height:60px;
+	/*background-color:grey;*/
+	position:relative;
+	top:100px;
+	
+}
+
+#view1{
+	height:40px;
+	width:120px;
+	margin:auto;
+	border:2px solid #16406c;
+	/*background-color:orange;*/
+	border-radius:40px;
+}
+
+#view_button{
+	position:relative;
+	bottom:10px;
+	left:25px;
+	text-decoration:none;
+	color:#16406c;
+}
+
+#space2{
+	height:50px;
+	/*background-color:lightblue;*/
+	position:relative;
+	top:110px;
+}
+
+
+
+#heading1{
+	text-align:center;
+	
+	font-weight:bold;
+	font-size:30px;
+	font-family:times new roman;
+	text-transform:uppercase;
+	color:#43474c;
+}
+
+#explore_toggle{
+	height:450px;
+	width:1200px;
+	margin:auto;
+	/*background-color:lightblue;*/
+	position:relative;
+	top:150px;
+}
+
+
+/*
+#list2{
+	height:350px;
+	background-color:red;
+	position:relative;
+	top:50px;
+}
+
+.sublist2{
+	height:300px;
+	width:400px;
+	background-color:pink;
+	position:relative;
+	bottom:50px;
+	right:40px;
+	padding:10px;
+	margin:10px;
+	list-style:none;
+	display:inline-block;
+}
+
+#piece5{
+	height:300px;
+	width:400px;
+	background-color:black;
+	position:relative;
+	bottom:300px;
+	left:470px;
+}
+
+#piece6{
+	height:300px;
+	width:400px;
+	background-color:black;
+	position:relative;
+	bottom:600px;
+	left:920px;
+}
+*/
+
+#space3{
+	height:40px;
+	position:relative;
+	top:200px;
+	/*background-color:grey;*/
+}
+
+#view2{
+	height:40px;
+	width:120px;
+	margin:auto;
+	border:2px solid #16406c;
+	/*background-color:orange;*/
+	border-radius:40px;
+}
+
+#view_button1{
+	/*background-color:red;*/
+	position:relative;
+	left:25px;
+	bottom:10px;
+	text-decoration:none;
+	font-weight: normal;
+	color:#16406c;	
+}
+
+#space4{
+	height:100px;
+	/*background-color:lightblue;*/
+	position:relative;
+	top:220px;
+}
+
+#heading2{
+	/*background-color:red;*/
+	height:50px;
+	width:900px;
+	font-family:oswald;
+	font-weight:bold;
+	color:#43474c;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:30px;
+	position:relative;
+	left:220px;
+	top:px;
+}
+
+#space5{
+	/*background-color:lightblue;*/
+	height:30px;
+	font-size:14px;
+	text-align:center;
+	color:#7c838c;
+	position:relative;
+	top:150px;
+	font-family:calibri;
+}
+
+*{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+	/*max-width: 1000px;*/
+	width:1345px;
+	height:600px;
+	position: relative;
+	top:100px;
+	margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	/*background-color:red;*/
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/*On hover, add a black background color with a little bit see-through 
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}*/
+
+/* Caption text */
+.text {
+	/*background-color:rgba(0,0,0,0.30);*/
+	color: #f2f2f2;
+	font-size: 17px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 330px;
+	left:200px;
+	width:450px;
+	height:130px;
+	text-align: justify;
+	font-family: calibri;
+	word-spacing:-0.8px;
+}
+
+
+.slide-content {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	margin: 0 2px;
+	background-color:;
+	border:1px solid white;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	position:relative;
+	top:100px;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+	.prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+.divindiv{
+	background-color:rgba(0,0,0,0.10);
+	height:30px;
+	width:90px;
+	border:1px solid #fff;
+	position:relative;
+	left:300px;
+	top:20px;
+}
+
+.divindiv:hover{
+	background-color:rgba(0,0,0,0.30);
+}
+
+.captionincaption{
+	color:#f2f2f2;
+	font-size:15px;
+	text-decoration:none;
+	position:relative;
+	top:3px;
+	left:10px;
+}
+
+#space6{
+	height:40px;
+	/*background-color:lightblue;*/
+	position:relative;
+	top:122px;
+}
+
+#heading3{
+	/*background-color:red;*/
+	font-family:oswald;
+	font-weight:bold;
+	color:#43474c;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:30px;
+}
+
+#Space6_content{
+	/*background-color:lightblue;*/
+	font-size:15px;
+	text-align:center;
+	color:#7c838c;
+	position:relative;
+	bottom:20px;
+	font-family:calibri;
+	position:relative;
+	top:110px;
+}
+
+#list3{
+	/*background-color:lightblue;*/
+	width:1200px;
+	height:300px;
+	margin:auto;
+	position:relative;
+	top:150px;
+}
+
+.sublist3{
+	/*background-color:black;*/
+	width:220px;
+	height:180px;
+	/*padding-top:10px;*/
+	margin:10px;
+}
+
+.heading4{
+	/*background-color:red;*/
+	height:20px;
+	width:220px;
+	position:relative;
+	top:px;
+	text-align:left;
+	font-size:17px;
+	font-weight:normal;
+	color:#3c3c3c;
+}
+
+.paragraph2{
+	/*background-color:red;*/
+	width:220px;
+	height:30px;
+	font-size:14px;
+	font-family:calibri;
+	color:#656565;
+	text-align:left;
+	position:relative;
+	bottom:10px;
+}
+
+#space7{
+	position:relative;
+	top:160px;
+}
+
+#heading5{
+	/*background-color:red;*/
+	font-family:oswald;
+	font-weight:bold;
+	color:#43474c;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:32px;
+}
+
+#testimonials_content{
+	/*background-color:lightblue;*/
+	font-size:15px;
+	text-align:center;
+	color:#7c838c;
+	position:relative;
+	top:150px;
+	font-family:calibri;
+}
+
+/*
+#space8{
+	background-color:red;
+	height:400px;
+	width:1200px;
+	margin:auto;
+	position:relative;
+	top:160px;
+}
+
+#testimonialsdiv{
+	height:200px;
+	width:400px;
+	background-color:lightblue;
+	position:relative;
+	left:400px;
+}
+*/
+
+
+#space8{
+	margin:auto;
+	height:250px;
+	width:1200px;
+	/*background-color:lightgreen;*/
+	position:relative;
+	top:200px;
+}
+
+/* Slideshow container */
+.testimonials-slideshow-container {
+	width:1200px;
+	height:250px;
+	margin: auto;
+	/*background-color:grey;*/
+}
+
+.testimonials_box{
+	margin:auto;
+	/*background-color:lightgrey;*/
+	height:130px;
+	width:400px;
+}
+
+.testimonials_name{
+	padding: 8px 12px;
+	/*background-color:red;*/
+	width:340px;
+	height:30px;
+	position:relative;
+	top:10px;
+	text-align:center;
+	font-family:calibri;
+	font-size:20px;
+	text-transform:uppercase;
+	opacity:.7;
+	margin:auto;
+}
+
+.testimonials-text{
+	/*background-color:rgba(0,0,0,0.30);*/
+	/*background-color:orange;*/
+	font-size: 17px;
+	padding: 8px 12px;
+	left:px;
+	width:1000px;
+	height:px;
+	text-align: justify;
+	font-family: calibri;
+	margin:auto;
+}
+
+.testimonials-text p{
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 20px;
+	letter-spacing: normal;
+	text-align: center;
+	color: #7c838c;
+	font-family:calibri;
+}
+
+/* Next & previous buttons */
+.prev-button, .next-button {
+	/*background-color:black;*/
+	cursor: pointer;
+	padding: 16px;
+	margin-top: -22px;
+	color: grey;
+	font-weight: bold;
+	font-size: 25px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+/* Position the "next button" to the right
+.next-button {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}*/
+
+/* On hover, add a black background color with a little bit see-through
+.prev-button:hover, .next-button:hover {
+	background-color: rgba(0,0,0,0.8);
+}*/
+
+
+/* Fading animation */
+.fadeSlide {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+#event-div{
+	height:40px;
+	/*background-color:lightblue;*/
+	position:relative;
+	top:230px;
+}
+
+#event_heading{
+	/*background-color:red;*/
+	font-family:oswald;
+	font-weight:bold;
+	color:#43474c;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:30px;
+}
+
+#event_content{
+	/*background-color:lightblue;*/
+	font-size:15px;
+	text-align:center;
+	color:#7c838c;
+	position:relative;
+	bottom:20px;
+	font-family:calibri;
+	position:relative;
+	top:210px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	margin: 0 2px;
+	background-color:;
+	border:1px solid white;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	position:relative;
+	top:100px;
+}
+
+.w3-opacity-off, .dot:hover {
+	background-color: #717171;
+}
+
+#space9{
+	background-color:black;
+	height:350px;
+	position:relative;
+	top:800px;
+}
+
+.space10{
+	/*background-color:lightblue;*/
+	height:80px;
+	width:1300px;
+	position:relative;
+	left:25px;
+
+}
+
+#heading6{
+	font-weight:bold;
+	color:#a4a4a4;
+	text-align:center;
+	
+}
+
+#connect a {
+	background: url(../Images/icons.png) no-repeat;
+}
+
+
+#connect a {
+	display: inline-block;
+	height: 33px;
+	margin: 0 10px;
+	position:relative;
+	left:590px;
+}
+#connect a.facebook {
+	background-position: -46px -112px;
+	width: 33px;
+}
+#connect a.googleplus {
+	background-position: -46px -153px;
+	width: 34px;
+}
+#connect a.twitter {
+	background-position: -46px -194px;
+	width: 40px;
+}
+#connect a.facebook:hover {
+	background-position: 0 -112px;
+}
+#connect a.googleplus:hover {
+	background-position: 0 -153px;
+}
+#connect a.twitter:hover {
+	background-position: 0 -194px;
+}
+
+#list4{
+	position:relative;
+	top:30px;
+	right:370px;
+}
+
+ul .sublist4 a{
+	color:#a4a4a4;
+	font-weight:bold;
+}
+
+ul .sublist4 a:hover{
+	color:white;
+}
+
+#space11{
+	/*background-color:lightblue;*/
+	width:800px;
+	font-weight:bold;
+	color:#a4a4a4;
+	text-align:center;
+	font-size:12px;
+	position:relative;
+	top:70px;
+	left:310px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----Contact-----*/
+
+#header{
+	height:400px;
+	/*background-color:lightblue;*/
+	/*background-image:url('Images/tajmahal4.jpg');*/
+	border-bottom:1px solid #fff;
+}
+
+#header > div{
+	height:390px;
+	width:900px;
+}
+
+#logo{
+	height:40px;
+	width:320px;
+	font-size:30px;
+	font-family:oswald;
+	color:white;
+	position:relative;
+	left:80px;
+	line-height:100px;
+}
+
+.anchor{
+	text-decoration:none;
+	color:white;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{	
+	height:20px;
+	width:160px;
+	background:;
+	float:right;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	font-size:17px;
+	font-family:calibri;
+}
+
+ul li a{
+	color:white;
+	text-decoration:none;
+	display:block;
+}
+
+ul .sublist1 a:hover{
+	background-color:black;
+	
+}
+
+ul .sublist1:hover{
+	background-color:black;
+}
+
+ul li ul{
+	background-color:black;
+	display:none;
+}
+
+ul li:hover ul{
+	display:block;
+}
+
+#logo2{
+	height:150px;
+	width:400px;
+	/*background-color:orange;*/
+	font-size:30px;
+	text-transform:uppercase;
+	color:white;
+	font-family:calibri;
+	position:relative;
+	left:80px;
+	top:170px;
+}
+
+.incredible{
+	height:50px;
+	width:380px;
+	/*background-color:lightblue;*/
+	position:relative;
+	top:20px;
+	font-size:45px;
+}
+
+
+#space12{
+	/*background-color:lightblue;*/
+	position:relative;
+	top:40px;
+}
+
+.list5{
+	/*background-color:red;*/
+	height:50px;
+	width:400px;
+}
+
+.sublist5{
+	height:20px;
+	width:80px;
+	float:right;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	font-size:17px;
+	/*font-family:calibri;*/
+	position:relative;
+	right:140px;
+	bottom:20px;
+	/*background-color:brown;*/
+	/*margin:5px;*/
+}
+
+.sublist5 a{
+	color:grey;
+	/*font-weight:bold;*/
+}
+
+#anchor1{
+	color:black;
+}
+
+#anchor2{
+	/*color:#43474c;*/
+	color:#606060;
+}
+
+#span1{
+	position:relative;
+	left:175px;
+	bottom:20px;
+	/*color:#7c838c;*/
+	/*color:grey;*/
+	color:#e6e6e6;
+	font-weight:bold;
+}
+
+#space13{
+	height:300px;
+	background-color:lightblue;
+	position:relative;
+	top:50px;
+}
+
+#space9{
+	background-color:black;
+	height:350px;
+	position:relative;
+	top:800px;
+}
+
+.space10{
+	/*background-color:lightblue;*/
+	height:80px;
+	width:1300px;
+	position:relative;
+	left:25px;
+
+}
+
+#heading6{
+	font-weight:bold;
+	color:#a4a4a4;
+	text-align:center;
+	
+}
+
+#connect a {
+	background: url(../Images/icons.png) no-repeat;
+}
+
+
+#connect a {
+	display: inline-block;
+	height: 33px;
+	margin: 0 10px;
+	position:relative;
+	left:590px;
+}
+#connect a.facebook {
+	background-position: -46px -112px;
+	width: 33px;
+}
+#connect a.googleplus {
+	background-position: -46px -153px;
+	width: 34px;
+}
+#connect a.twitter {
+	background-position: -46px -194px;
+	width: 40px;
+}
+#connect a.facebook:hover {
+	background-position: 0 -112px;
+}
+#connect a.googleplus:hover {
+	background-position: 0 -153px;
+}
+#connect a.twitter:hover {
+	background-position: 0 -194px;
+}
+
+#list4{
+	position:relative;
+	top:30px;
+	right:370px;
+}
+
+ul .sublist4 a{
+	color:#a4a4a4;
+	font-weight:bold;
+}
+
+ul .sublist4 a:hover{
+	color:white;
+}
+
+#space11{
+	/*background-color:lightblue;*/
+	width:800px;
+	font-weight:bold;
+	color:#a4a4a4;
+	text-align:center;
+	font-size:12px;
+	position:relative;
+	top:70px;
+	left:310px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----Privacy Policy-----*/
+
+#header{
+	height:400px;
+	/*background-color:lightblue;*/
+	/*background-image:url('Images/tajmahal4.jpg');*/
+	border-bottom:1px solid #fff;
+}
+
+#header > div{
+	height:390px;
+	width:900px;
+}
+
+#logo{
+	height:40px;
+	width:320px;
+	font-size:30px;
+	font-family:oswald;
+	color:white;
+	position:relative;
+	left:80px;
+	line-height:100px;
+}
+
+.anchor{
+	text-decoration:none;
+	color:white;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{	
+	height:20px;
+	width:160px;
+	background:;
+	float:right;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	font-size:17px;
+	font-family:calibri;
+}
+
+ul li a{
+	color:white;
+	text-decoration:none;
+	display:block;
+}
+
+ul .sublist1 a:hover{
+	background-color:black;
+	
+}
+
+ul .sublist1:hover{
+	background-color:black;
+}
+
+ul li ul{
+	background-color:black;
+	display:none;
+}
+
+ul li:hover ul{
+	display:block;
+}
+
+#logo2{
+	height:150px;
+	width:400px;
+	/*background-color:orange;*/
+	font-size:30px;
+	text-transform:uppercase;
+	color:white;
+	font-family:calibri;
+	position:relative;
+	left:80px;
+	top:170px;
+}
+
+.incredible{
+	height:50px;
+	width:380px;
+	/*background-color:lightblue;*/
+	position:relative;
+	top:20px;
+	font-size:45px;
+}
+
+#space12{
+	/*background-color:lightblue;*/
+	position:relative;
+	top:40px;
+}
+
+.list6{
+	/*background-color:red;*/
+	height:50px;
+	width:400px;
+}
+
+.sublist6{
+	height:20px;
+	width:120px;
+	float:right;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	font-size:17px;
+	/*font-family:calibri;*/
+	position:relative;
+	right:70px;
+	bottom:20px;
+	/*background-color:brown;*/
+	/*margin:5px;*/
+}
+
+.sublist6 a{
+	color:grey;
+	/*font-weight:bold;*/
+}
+
+#anchor3{
+	color:black;
+}
+
+#anchor4{
+	/*color:#43474c;*/
+	color:#606060;
+}
+
+#span2{
+	position:relative;
+	left:195px;
+	bottom:20px;
+	/*color:#7c838c;*/
+	/*color:grey;*/
+	color:#e6e6e6;
+	font-weight:bold;
+}
+
+#space14{
+	height:5300px;
+	width:1100px;
+	margin:auto;
+	/*background-color:lightblue;*/
+}
+
+#heading7{
+	color:#43474c;
+	text-align:center;
+	font-family:calibri;
+	font-size:30px;
+	font-weight:bold;
+}
+
+.P4{
+	font-size:17px;
+	color:#43474c;
+	font-weight:bold;
+	text-align:justify;
+	font-family:calibri;
+}
+
+.P5{
+	font-size:15px;
+	color:#7c838c;
+	line-height:1.71;
+	text-align:justify;
+	font-family:calibri;
+}
+
+.P6{
+	font-size:13.5px;
+	color:C0C0C0;
+	line-height:1;
+	text-align:justify;
+	font-family:calibri;
+}
+
+#space15{
+	background-color:black;
+	height:350px;
+}
+
+.space10{
+	/*background-color:lightblue;*/
+	height:80px;
+	width:1300px;
+	position:relative;
+	left:25px;
+
+}
+
+#heading6{
+	font-weight:bold;
+	color:#a4a4a4;
+	text-align:center;
+	
+}
+
+#connect a {
+	background: url(../Images/icons.png) no-repeat;
+}
+
+
+#connect a {
+	display: inline-block;
+	height: 33px;
+	margin: 0 10px;
+	position:relative;
+	left:590px;
+}
+#connect a.facebook {
+	background-position: -46px -112px;
+	width: 33px;
+}
+#connect a.googleplus {
+	background-position: -46px -153px;
+	width: 34px;
+}
+#connect a.twitter {
+	background-position: -46px -194px;
+	width: 40px;
+}
+#connect a.facebook:hover {
+	background-position: 0 -112px;
+}
+#connect a.googleplus:hover {
+	background-position: 0 -153px;
+}
+#connect a.twitter:hover {
+	background-position: 0 -194px;
+}
+
+#list4{
+	position:relative;
+	top:30px;
+	right:370px;
+}
+
+ul .sublist4 a{
+	color:#a4a4a4;
+	font-weight:bold;
+}
+
+ul .sublist4 a:hover{
+	color:white;
+}
+
+#space11{
+	/*background-color:lightblue;*/
+	width:800px;
+	font-weight:bold;
+	color:#a4a4a4;
+	text-align:center;
+	font-size:12px;
+	position:relative;
+	top:70px;
+	left:310px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----Destination----*/
+
+#header{
+	height:400px;
+	/*background-color:lightblue;*/
+	/*background-image:url('Images/tajmahal4.jpg');*/
+	border-bottom:1px solid #fff;
+}
+
+#header > div{
+	height:390px;
+	width:900px;
+}
+
+#logo{
+	height:40px;
+	width:320px;
+	font-size:30px;
+	font-family:oswald;
+	color:white;
+	position:relative;
+	left:80px;
+	line-height:100px;
+}
+
+.anchor{
+	text-decoration:none;
+	color:white;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{	
+	height:20px;
+	width:160px;
+	background:;
+	float:right;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	font-size:17px;
+	font-family:calibri;
+}
+
+ul li a{
+	color:white;
+	text-decoration:none;
+	display:block;
+}
+
+ul .sublist1 a:hover{
+	background-color:black;
+	
+}
+
+ul .sublist1:hover{
+	background-color:black;
+}
+
+ul li ul{
+	background-color:black;
+	display:none;
+}
+
+ul li:hover ul{
+	display:block;
+}
+
+#logo2{
+	height:150px;
+	width:400px;
+	/*background-color:orange;*/
+	font-size:30px;
+	text-transform:uppercase;
+	color:white;
+	font-family:calibri;
+	position:relative;
+	left:80px;
+	top:170px;
+}
+
+.incredible{
+	height:50px;
+	width:380px;
+	/*background-color:lightblue;*/
+	position:relative;
+	top:20px;
+	font-size:45px;
+}
+
+#space12{
+	/*background-color:lightblue;*/
+	position:relative;
+	top:40px;
+}
+
+.list7{
+	/*background-color:red;*/
+	height:50px;
+	width:400px;
+}
+
+.sublist7{
+	height:20px;
+	width:120px;
+	float:right;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	font-size:17px;
+	/*font-family:calibri;*/
+	position:relative;
+	right:70px;
+	bottom:20px;
+	/*background-color:brown;*/
+	/*margin:5px;*/
+}
+
+.sublist7 a{
+	color:grey;
+	/*font-weight:bold;*/
+}
+
+#anchor5{
+	color:black;
+}
+
+#anchor6{
+	/*color:#43474c;*/
+	color:#606060;
+}
+
+#span3{
+	position:relative;
+	left:195px;
+	bottom:20px;
+	/*color:#7c838c;*/
+	/*color:grey;*/
+	color:#e6e6e6;
+	font-weight:bold;
+}
+
+#destinationdivleft{
+	width:300px;
+	height:2000px;
+	/*background-color:lightblue;*/
+	float:left;
+	position:relative;
+	left:90px;
+	top:20px;
+}
+
+#form-group{
+	height:80px;
+	width:270px;
+	/*background-color:lightgreen;*/
+	position:relative;
+	top:20px;
+	left:25px;
+}
+
+.text_style{
+	font-weight:bold;
+	font-style:normal;
+	font-stretch:normal;
+	letter-spacing:normal;
+	text-transform:uppercase;
+	font-family:calibri;
+	text-align:left;
+	font-size:20px;
+	color:#454545;
+	/*color:#43474c;*/
+}
+
+#imaginary_container{
+	height:40px;
+	width:270px;
+}
+
+#style_input{
+	color:#e6e6e6;
+}
+
+#destination_regions{
+	height:38px;
+	width:260px;
+	/*background-color:lightgreen;*/
+	position:relative;
+	top:40px;
+	left:25px;
+	color:#454545;
+	border-bottom:1px solid #0003;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family:calibri;
+	font-size:20px;
+}
+
+#destination_arrow_toggle{
+	height:30px;
+	width:18px;
+	/*background-color:lightgrey;*/
+	position:relative;
+	top:8px;
+	left:260px;
+	font-weight:bold;
+	font-size:20px;
+	color:#454545;
+	cursor:pointer;
+}
+
+#destination_arrow_toggle_content{
+	height:150px;
+	width:260px;
+	/*background-color:lightgrey;*/
+	position:relative;
+	top:25px;
+	left:30px;
+	font-weight:bold;
+	color:#454545;
+}
+
+.zones{
+	color:#7c838c;
+	font-weight:normal;
+	font-size:15px;
+	font-family:calibri;
+}
+
+#destination_arrow_toggle_slide{
+	height:30px;
+	width:18px;
+	/*background-color:lightgrey;*/
+	position:relative;
+	top:8px;
+	left:260px;
+	font-weight:bold;
+	font-size:20px;
+	color:#454545;
+	cursor:pointer;
+}
+
+#destination_arrow_toggle_content_states{
+	height:1500px;
+	width:260px;
+	/*background-color:lightgrey;*/
+	position:relative;
+	top:40px;
+	left:25px;
+	color:#454545;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family:calibri;
+	font-size:20px;
+}
+
+#destinationdivright{
+	width:900px;
+	height:3500px;
+	/*background-color:lightgreen;*/
+	float:right;
+	position:relative;
+	top:20px;
+	right:89px;
+}
+
+#heading8{
+	font-family:arial;
+	font-size:18px;
+	color:#454545;
+	font-weight:normal;
+	letter-spacing:normal;
+	position:relative;
+	left:50px;
+}
+
+#divportion1{
+	position:relative;
+	top:20px;
+}
+
+.destinationdivindiv{
+	width:850px;
+	height:250px;
+	border:1px solid #e6e6e6;
+	position:relative;
+	left:50px;
+}
+
+.destinationimageindiv{
+	width:350px;
+	height:200px;
+	float:left;
+	position:relative;
+	top:25px;
+	left:25px;
+	/*background-color:red;*/
+}
+
+.destinationinsidediv{
+	width:420px;
+	height:200px;
+	float:right;
+	position:relative;
+	top:25px;
+	right:25px;
+	color:#43474c;
+	/*background-color:red;*/
+}
+
+.destinationpalace{
+	width:420px;
+	height:20px;
+	/*background-color:red;*/
+}
+
+.destinationinsidedivmark{
+	text-decoration:none;
+	color:#43474c;
+}
+
+#foodandcuisine{
+	height:25px;
+	width:30px;
+	/*border-right:1px solid #e6e6e6;*/
+	position:relative;
+	left:350px;
+	bottom:20px;
+}
+
+#thingstodo{
+	height:25px;
+	width:30px;
+	border-left:1px solid #e6e6e6;
+	position:relative;
+	left:390px;
+	bottom:45px;
+}
+
+.artsandcrafts{
+	height:25px;
+	width:30px;
+	border-left:1px solid #e6e6e6;
+	position:relative;
+	left:390px;
+	bottom:70px;
+}
+
+.foodandcuisine{
+	height:25px;
+	width:30px;
+	/*border-right:1px solid #e6e6e6;*/
+	position:relative;
+	left:300px;
+	bottom:20px;
+}
+
+.thingstodo{
+	height:25px;
+	width:30px;
+	border-left:1px solid #e6e6e6;
+	position:relative;
+	left:340px;
+	bottom:45px;
+}
+
+.destinationdivcontent{
+	height:50px;
+	width:420px;
+	/*background-color:red;*/
+	text-align:justify;
+	font-size:14px;
+	color:#43474c;
+	word-spacing:;
+	border-top:1px solid #e6e6e6;
+	letter-spacing:normal;
+	padding-top:5px;
+	position:relative;
+	top:20px;
+}
+
+#divportion2{
+	position:relative;
+	top:40px;
+}
+
+#divportion3{
+	position:relative;
+	top:60px;
+}
+
+#divportion4{
+	position:relative;
+	top:80px;
+}
+
+#divportion5{
+	position:relative;
+	top:100px;
+}
+
+#divportion6{
+	position:relative;
+	top:120px;
+}
+
+#divportion7{
+	position:relative;
+	top:140px;
+}
+
+#divportion8{
+	position:relative;
+	top:160px;
+}
+
+#divportion9{
+	position:relative;
+	top:180px;
+}
+
+#divportion10{
+	position:relative;
+	top:200px;
+}
+
+#divportion11{
+	position:relative;
+	top:220px;
+}
+
+#destinationdivlastwork{
+	height:60px;
+	width:900;
+	/*background-color:lightblue;*/
+	float:right;
+	position:relative;
+	top:270px;
+}
+
+#destinationdivbutton{
+	/*background-color:#fff;*/
+	height:50px;
+	width:130px;
+	position:relative;
+	left:410px;
+	border:1px solid lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----Emergency----*/
+
+
+#header{
+	height:400px;
+	/*background-color:lightblue;*/
+	/*background-image:url('Images/tajmahal4.jpg');*/
+	border-bottom:1px solid #fff;
+}
+
+#header > div{
+	height:390px;
+	width:900px;
+}
+
+#logo{
+	height:40px;
+	width:320px;
+	font-size:30px;
+	font-family:oswald;
+	color:white;
+	position:relative;
+	left:80px;
+	line-height:100px;
+}
+
+.anchor{
+	text-decoration:none;
+	color:white;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+li{	
+	height:20px;
+	width:160px;
+	background:;
+	float:right;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	font-size:17px;
+	font-family:calibri;
+}
+
+ul li a{
+	color:white;
+	text-decoration:none;
+	display:block;
+}
+
+ul .sublist1 a:hover{
+	background-color:black;
+	
+}
+
+ul .sublist1:hover{
+	background-color:black;
+}
+
+ul li ul{
+	background-color:black;
+	display:none;
+}
+
+ul li:hover ul{
+	display:block;
+}
+
+#logo2{
+	height:150px;
+	width:400px;
+	/*background-color:orange;*/
+	font-size:30px;
+	text-transform:uppercase;
+	color:white;
+	font-family:calibri;
+	position:relative;
+	left:80px;
+	top:170px;
+}
+
+.incredible{
+	height:50px;
+	width:380px;
+	/*background-color:lightblue;*/
+	position:relative;
+	top:20px;
+	font-size:45px;
+}
+
+#space12{
+	/*background-color:lightblue;*/
+	position:relative;
+	top:40px;
+}
+
+.list8{
+	/*background-color:red;*/
+	height:50px;
+	width:400px;
+}
+
+.sublist8{
+	height:20px;
+	width:120px;
+	float:right;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	font-size:17px;
+	/*font-family:calibri;*/
+	position:relative;
+	right:70px;
+	bottom:20px;
+	/*background-color:brown;*/
+	/*margin:5px;*/
+}
+
+.sublist8 a{
+	color:grey;
+	/*font-weight:bold;*/
+}
+
+#anchor7{
+	color:black;
+}
+
+#anchor8{
+	/*color:#43474c;*/
+	color:#606060;
+}
+
+#span4{
+	position:relative;
+	left:195px;
+	bottom:20px;
+	/*color:#7c838c;*/
+	/*color:grey;*/
+	color:#e6e6e6;
+	font-weight:bold;
+}
+
+#space16{
+	height:1050px;
+	width:1100px;
+	margin:auto;
+	/*background-color:lightblue;*/
+}
+
+#heading7{
+	color:#43474c;
+	text-align:center;
+	font-family:calibri;
+	font-size:35px;
+	font-weight:bold;
+}
+
+.P5{
+	font-size:15px;
+	color:#7c838c;
+	line-height:1.71;
+	text-align:justify;
+	font-family:calibri;
+}
+
+.P7{
+	font-size:15px;
+	color:#43474c;
+	font-weight:bold;
+	text-align:justify;
+	font-family:calibri;
+}
+
+#emergency-footer-div{
+	background-color:black;
+	height:350px;
+}
+
